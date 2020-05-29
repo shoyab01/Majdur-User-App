@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "549955648003",
+    "firebase_url": "https://majdurapp-9518b.firebaseio.com",
+    "project_id": "majdurapp-9518b",
+    "storage_bucket": "majdurapp-9518b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549955648003:android:960d78e25a649a27a86c36",
+        "android_client_info": {
+          "package_name": "com.example.majdurapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549955648003-iojqo9qnr18rq7qn8ob6rno6f3q8bvue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlVulmFUR2YQHtbvc0-igFn9o80gf-Cso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549955648003-iojqo9qnr18rq7qn8ob6rno6f3q8bvue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="@color/black"
+    android:id="@+id/profileFragment">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/image"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Image"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border_color"
+            android:outlineSpotShadowColor="#000000"
+            android:maxLength="25"
+            android:hint="Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:drawableStart="@drawable/person_outline"
+            android:drawableLeft="@drawable/person_outline"
+            android:drawablePadding="7dp"
+            android:drawableTint="@color/white"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border_color"
+            android:outlineSpotShadowColor="#000000"
+            android:maxLength="10"
+            android:hint="Mobile no"
+            android:textColorHint="@color/white"
+            android:drawableStart="@drawable/phone"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="7dp"
+            android:drawableTint="@color/white"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/alt_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border_color"
+            android:outlineSpotShadowColor="#000000"
+            android:textColor="@color/white"
+            android:maxLength="10"
+            android:hint="Alternate Mobile no"
+            android:textColorHint="@color/white"
+            android:drawableStart="@drawable/phone"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="7dp"
+            android:inputType="number"
+            android:drawableTint="@color/white"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border_color"
+            android:textColor="@color/white"
+            android:outlineSpotShadowColor="#000000"
+            android:maxLength="100"
+            android:hint="Email ID"
+            android:textColorHint="@color/white"
+            android:drawableStart="@drawable/email"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="7dp"
+            android:drawableTint="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Update"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@color/yellow"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

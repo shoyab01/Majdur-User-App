@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/usr_profile" android:title="User Profile" android:icon="@drawable/profile"/>
+    <item android:id="@+id/booking" android:title="My Bookings" android:icon="@drawable/bookings"/>
+    <item android:id="@+id/wallet" android:title="Wallets" android:icon="@drawable/wallet"/>
+    <item android:id="@+id/setting" android:title="Settings" android:icon="@drawable/settings"/>
+    <item android:id="@+id/help" android:title="Help" android:icon="@drawable/help"/>
+    <item android:id="@+id/feedback" android:title="Feedback" android:icon="@drawable/feedback"/>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/logout"/>
+
+    </group>
+
+</menu>
